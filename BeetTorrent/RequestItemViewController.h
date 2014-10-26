@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RequestItemViewController : UIViewController
-
+@property NSMutableArray* myFriendNames;
+@property NSMutableArray* myFriendNumbers;
 @end

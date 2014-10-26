@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailedDownloadViewController : UIViewController
-
+@property NSMutableArray* myFriendNames;
+@property NSMutableArray* myFriendNumbers;
 @end

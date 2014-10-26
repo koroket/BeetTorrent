@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECAE25165E944EB894E58A5C"
+               BlueprintIdentifier = "C31D59B32D1425CDB4576DD4"
                BuildableName = "libPods-BeetTorrent.a"
                BlueprintName = "Pods-BeetTorrent"
                ReferencedContainer = "container:Pods.xcodeproj">

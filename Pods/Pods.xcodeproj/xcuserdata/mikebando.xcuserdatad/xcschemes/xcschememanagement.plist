@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-BeetTorrent-SinchRTC.xcscheme</key>
+		<key>Pods-BeetTorrent-TDBadgedCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B7560AED17B277A5FF4EA4BB</key>
+		<key>80EAC3A1527976091EEA0BF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ECAE25165E944EB894E58A5C</key>
+		<key>C31D59B32D1425CDB4576DD4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

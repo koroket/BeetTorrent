@@ -73,18 +73,18 @@
         <scene sceneID="kD0-hV-nYH">
             <objects>
                 <tableViewController id="o3W-uN-owb" customClass="ListOfDownloadsTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1gA-Yv-mm5">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" id="1gA-Yv-mm5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DownloadCell" id="G4L-cf-YzO">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DownloadCell" rowHeight="64" id="G4L-cf-YzO" customClass="TDBadgedCell">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="G4L-cf-YzO" id="f9b-Sg-z2E">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Qlm-EU-WTT" kind="show" id="Zi1-L1-YJ9"/>
+                                    <segue destination="Qlm-EU-WTT" kind="show" identifier="Show" id="Zi1-L1-YJ9"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -101,7 +101,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="4Pr-bC-NM0">
                             <connections>
-                                <segue destination="iXp-C0-3qk" kind="show" id="nxq-me-09e"/>
+                                <segue destination="iXp-C0-3qk" kind="show" identifier="Add" id="nxq-me-09e"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

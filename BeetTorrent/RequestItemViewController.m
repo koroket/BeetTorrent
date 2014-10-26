@@ -119,7 +119,7 @@
     NSError *error = nil;
     
     NSMutableDictionary* sendObjInside = [NSMutableDictionary dictionary];
-    [sendObjInside setObject:@"give me eggs" forKey:@"title"];
+    [sendObjInside setObject:needs forKey:@"title"];
     
     NSMutableDictionary* sendObj = [NSMutableDictionary dictionary];
     [sendObj setObject:sendObjInside forKey:@"free_text_poll"];

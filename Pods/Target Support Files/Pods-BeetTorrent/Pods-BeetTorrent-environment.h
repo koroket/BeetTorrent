@@ -6,9 +6,10 @@
 // project.
 
 
-// SinchRTC
-#define COCOAPODS_POD_AVAILABLE_SinchRTC
-#define COCOAPODS_VERSION_MAJOR_SinchRTC 3
-#define COCOAPODS_VERSION_MINOR_SinchRTC 2
-#define COCOAPODS_VERSION_PATCH_SinchRTC 7
+// TDBadgedCell
+#define COCOAPODS_POD_AVAILABLE_TDBadgedCell
+// This library does not follow semantic-versioning,
+// so we were not able to define version macros.
+// Please contact the author.
+// Version: 2.5.2.1.
 
