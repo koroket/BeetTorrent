@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62AA237C19FC766A00A8DA0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA237B19FC766A00A8DA0D /* main.m */; };
+		62AA237F19FC766A00A8DA0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA237E19FC766A00A8DA0D /* AppDelegate.m */; };
+		62AA238219FC766A00A8DA0D /* BeetTorrent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62AA238019FC766A00A8DA0D /* BeetTorrent.xcdatamodeld */; };
+		62AA238519FC766A00A8DA0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA238419FC766A00A8DA0D /* ViewController.m */; };
+		62AA238819FC766A00A8DA0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AA238619FC766A00A8DA0D /* Main.storyboard */; };
+		62AA238A19FC766A00A8DA0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AA238919FC766A00A8DA0D /* Images.xcassets */; };
+		62AA239619FC766A00A8DA0D /* BeetTorrentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA239519FC766A00A8DA0D /* BeetTorrentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62AA239019FC766A00A8DA0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62AA236E19FC766A00A8DA0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AA237519FC766A00A8DA0D;
+			remoteInfo = BeetTorrent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62AA237619FC766A00A8DA0D /* BeetTorrent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeetTorrent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AA237A19FC766A00A8DA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AA237B19FC766A00A8DA0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62AA237D19FC766A00A8DA0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62AA237E19FC766A00A8DA0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62AA238119FC766A00A8DA0D /* BeetTorrent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeetTorrent.xcdatamodel; sourceTree = "<group>"; };
+		62AA238319FC766A00A8DA0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62AA238419FC766A00A8DA0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62AA238719FC766A00A8DA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62AA238919FC766A00A8DA0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62AA238F19FC766A00A8DA0D /* BeetTorrentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetTorrentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AA239419FC766A00A8DA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AA239519FC766A00A8DA0D /* BeetTorrentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeetTorrentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62AA237319FC766A00A8DA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AA238C19FC766A00A8DA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62AA236D19FC766A00A8DA0D = {
+			isa = PBXGroup;
+			children = (
+				62AA237819FC766A00A8DA0D /* BeetTorrent */,
+				62AA239219FC766A00A8DA0D /* BeetTorrentTests */,
+				62AA237719FC766A00A8DA0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62AA237719FC766A00A8DA0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62AA237619FC766A00A8DA0D /* BeetTorrent.app */,
+				62AA238F19FC766A00A8DA0D /* BeetTorrentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62AA237819FC766A00A8DA0D /* BeetTorrent */ = {
+			isa = PBXGroup;
+			children = (
+				62AA237D19FC766A00A8DA0D /* AppDelegate.h */,
+				62AA237E19FC766A00A8DA0D /* AppDelegate.m */,
+				62AA238319FC766A00A8DA0D /* ViewController.h */,
+				62AA238419FC766A00A8DA0D /* ViewController.m */,
+				62AA238619FC766A00A8DA0D /* Main.storyboard */,
+				62AA238919FC766A00A8DA0D /* Images.xcassets */,
+				62AA238019FC766A00A8DA0D /* BeetTorrent.xcdatamodeld */,
+				62AA237919FC766A00A8DA0D /* Supporting Files */,
+			);
+			path = BeetTorrent;
+			sourceTree = "<group>";
+		};
+		62AA237919FC766A00A8DA0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62AA237A19FC766A00A8DA0D /* Info.plist */,
+				62AA237B19FC766A00A8DA0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62AA239219FC766A00A8DA0D /* BeetTorrentTests */ = {
+			isa = PBXGroup;
+			children = (
+				62AA239519FC766A00A8DA0D /* BeetTorrentTests.m */,
+				62AA239319FC766A00A8DA0D /* Supporting Files */,
+			);
+			path = BeetTorrentTests;
+			sourceTree = "<group>";
+		};
+		62AA239319FC766A00A8DA0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62AA239419FC766A00A8DA0D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62AA237519FC766A00A8DA0D /* BeetTorrent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AA239919FC766A00A8DA0D /* Build configuration list for PBXNativeTarget "BeetTorrent" */;
+			buildPhases = (
+				62AA237219FC766A00A8DA0D /* Sources */,
+				62AA237319FC766A00A8DA0D /* Frameworks */,
+				62AA237419FC766A00A8DA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeetTorrent;
+			productName = BeetTorrent;
+			productReference = 62AA237619FC766A00A8DA0D /* BeetTorrent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62AA238E19FC766A00A8DA0D /* BeetTorrentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AA239C19FC766A00A8DA0D /* Build configuration list for PBXNativeTarget "BeetTorrentTests" */;
+			buildPhases = (
+				62AA238B19FC766A00A8DA0D /* Sources */,
+				62AA238C19FC766A00A8DA0D /* Frameworks */,
+				62AA238D19FC766A00A8DA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62AA239119FC766A00A8DA0D /* PBXTargetDependency */,
+			);
+			name = BeetTorrentTests;
+			productName = BeetTorrentTests;
+			productReference = 62AA238F19FC766A00A8DA0D /* BeetTorrentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62AA236E19FC766A00A8DA0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sloot;
+				TargetAttributes = {
+					62AA237519FC766A00A8DA0D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					62AA238E19FC766A00A8DA0D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 62AA237519FC766A00A8DA0D;
+					};
+				};
+			};
+			buildConfigurationList = 62AA237119FC766A00A8DA0D /* Build configuration list for PBXProject "BeetTorrent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62AA236D19FC766A00A8DA0D;
+			productRefGroup = 62AA237719FC766A00A8DA0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62AA237519FC766A00A8DA0D /* BeetTorrent */,
+				62AA238E19FC766A00A8DA0D /* BeetTorrentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62AA237419FC766A00A8DA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AA238819FC766A00A8DA0D /* Main.storyboard in Resources */,
+				62AA238A19FC766A00A8DA0D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AA238D19FC766A00A8DA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62AA237219FC766A00A8DA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AA237F19FC766A00A8DA0D /* AppDelegate.m in Sources */,
+				62AA237C19FC766A00A8DA0D /* main.m in Sources */,
+				62AA238519FC766A00A8DA0D /* ViewController.m in Sources */,
+				62AA238219FC766A00A8DA0D /* BeetTorrent.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AA238B19FC766A00A8DA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AA239619FC766A00A8DA0D /* BeetTorrentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62AA239119FC766A00A8DA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62AA237519FC766A00A8DA0D /* BeetTorrent */;
+			targetProxy = 62AA239019FC766A00A8DA0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62AA238619FC766A00A8DA0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62AA238719FC766A00A8DA0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62AA239719FC766A00A8DA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62AA239819FC766A00A8DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62AA239A19FC766A00A8DA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BeetTorrent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62AA239B19FC766A00A8DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BeetTorrent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62AA239D19FC766A00A8DA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeetTorrentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeetTorrent.app/BeetTorrent";
+			};
+			name = Debug;
+		};
+		62AA239E19FC766A00A8DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeetTorrentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeetTorrent.app/BeetTorrent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62AA237119FC766A00A8DA0D /* Build configuration list for PBXProject "BeetTorrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AA239719FC766A00A8DA0D /* Debug */,
+				62AA239819FC766A00A8DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AA239919FC766A00A8DA0D /* Build configuration list for PBXNativeTarget "BeetTorrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AA239A19FC766A00A8DA0D /* Debug */,
+				62AA239B19FC766A00A8DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62AA239C19FC766A00A8DA0D /* Build configuration list for PBXNativeTarget "BeetTorrentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AA239D19FC766A00A8DA0D /* Debug */,
+				62AA239E19FC766A00A8DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62AA238019FC766A00A8DA0D /* BeetTorrent.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62AA238119FC766A00A8DA0D /* BeetTorrent.xcdatamodel */,
+			);
+			currentVersion = 62AA238119FC766A00A8DA0D /* BeetTorrent.xcdatamodel */;
+			path = BeetTorrent.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62AA236E19FC766A00A8DA0D /* Project object */;
+}
