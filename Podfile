@@ -4,7 +4,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'BeetTorrent' do
-
+pod 'SinchRTC'
 end
 
 target 'BeetTorrentTests' do

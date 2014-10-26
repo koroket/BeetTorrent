@@ -10,10 +10,14 @@
 		62AA237C19FC766A00A8DA0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA237B19FC766A00A8DA0D /* main.m */; };
 		62AA237F19FC766A00A8DA0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA237E19FC766A00A8DA0D /* AppDelegate.m */; };
 		62AA238219FC766A00A8DA0D /* BeetTorrent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62AA238019FC766A00A8DA0D /* BeetTorrent.xcdatamodeld */; };
-		62AA238519FC766A00A8DA0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA238419FC766A00A8DA0D /* ViewController.m */; };
 		62AA238819FC766A00A8DA0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AA238619FC766A00A8DA0D /* Main.storyboard */; };
 		62AA238A19FC766A00A8DA0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AA238919FC766A00A8DA0D /* Images.xcassets */; };
 		62AA239619FC766A00A8DA0D /* BeetTorrentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA239519FC766A00A8DA0D /* BeetTorrentTests.m */; };
+		62AA23A119FC78CC00A8DA0D /* RequestItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA23A019FC78CC00A8DA0D /* RequestItemViewController.m */; };
+		62AA23A519FCF84200A8DA0D /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA23A419FCF84200A8DA0D /* Group.m */; };
+		62AA23A819FCF9E000A8DA0D /* ListOfDownloadsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA23A719FCF9E000A8DA0D /* ListOfDownloadsTableViewController.m */; };
+		62AA23AE19FD005C00A8DA0D /* DetailedDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA23AD19FD005C00A8DA0D /* DetailedDownloadViewController.m */; };
+		FA083C789E481FB0BE6A928F /* libPods-BeetTorrent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1FA7504253BAE6CF92C734 /* libPods-BeetTorrent.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AE2B693CC74658FC5BB65CF /* Pods-BeetTorrent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeetTorrent.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeetTorrent/Pods-BeetTorrent.release.xcconfig"; sourceTree = "<group>"; };
+		541FF4E760147A8C877353D7 /* Pods-BeetTorrent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeetTorrent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeetTorrent/Pods-BeetTorrent.debug.xcconfig"; sourceTree = "<group>"; };
 		62AA237619FC766A00A8DA0D /* BeetTorrent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeetTorrent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AA237A19FC766A00A8DA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62AA237B19FC766A00A8DA0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62AA237D19FC766A00A8DA0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62AA237E19FC766A00A8DA0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		62AA238119FC766A00A8DA0D /* BeetTorrent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeetTorrent.xcdatamodel; sourceTree = "<group>"; };
-		62AA238319FC766A00A8DA0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62AA238419FC766A00A8DA0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62AA238719FC766A00A8DA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62AA238919FC766A00A8DA0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		62AA238F19FC766A00A8DA0D /* BeetTorrentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetTorrentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AA239419FC766A00A8DA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62AA239519FC766A00A8DA0D /* BeetTorrentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeetTorrentTests.m; sourceTree = "<group>"; };
+		62AA239F19FC78CC00A8DA0D /* RequestItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestItemViewController.h; sourceTree = "<group>"; };
+		62AA23A019FC78CC00A8DA0D /* RequestItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestItemViewController.m; sourceTree = "<group>"; };
+		62AA23A219FCF84200A8DA0D /* BeetTorrent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeetTorrent-Bridging-Header.h"; sourceTree = "<group>"; };
+		62AA23A319FCF84200A8DA0D /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		62AA23A419FCF84200A8DA0D /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		62AA23A619FCF9E000A8DA0D /* ListOfDownloadsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfDownloadsTableViewController.h; sourceTree = "<group>"; };
+		62AA23A719FCF9E000A8DA0D /* ListOfDownloadsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfDownloadsTableViewController.m; sourceTree = "<group>"; };
+		62AA23AC19FD005C00A8DA0D /* DetailedDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedDownloadViewController.h; sourceTree = "<group>"; };
+		62AA23AD19FD005C00A8DA0D /* DetailedDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedDownloadViewController.m; sourceTree = "<group>"; };
+		6E1FA7504253BAE6CF92C734 /* libPods-BeetTorrent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeetTorrent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA083C789E481FB0BE6A928F /* libPods-BeetTorrent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,8 @@
 				62AA237819FC766A00A8DA0D /* BeetTorrent */,
 				62AA239219FC766A00A8DA0D /* BeetTorrentTests */,
 				62AA237719FC766A00A8DA0D /* Products */,
+				B401F8E5F813E120B54E724F /* Pods */,
+				CE9DC5250B1321B69B45EFA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +98,21 @@
 		62AA237819FC766A00A8DA0D /* BeetTorrent */ = {
 			isa = PBXGroup;
 			children = (
+				62AA23AC19FD005C00A8DA0D /* DetailedDownloadViewController.h */,
+				62AA23AD19FD005C00A8DA0D /* DetailedDownloadViewController.m */,
 				62AA237D19FC766A00A8DA0D /* AppDelegate.h */,
 				62AA237E19FC766A00A8DA0D /* AppDelegate.m */,
-				62AA238319FC766A00A8DA0D /* ViewController.h */,
-				62AA238419FC766A00A8DA0D /* ViewController.m */,
+				62AA23A619FCF9E000A8DA0D /* ListOfDownloadsTableViewController.h */,
+				62AA23A719FCF9E000A8DA0D /* ListOfDownloadsTableViewController.m */,
+				62AA239F19FC78CC00A8DA0D /* RequestItemViewController.h */,
+				62AA23A019FC78CC00A8DA0D /* RequestItemViewController.m */,
 				62AA238619FC766A00A8DA0D /* Main.storyboard */,
 				62AA238919FC766A00A8DA0D /* Images.xcassets */,
 				62AA238019FC766A00A8DA0D /* BeetTorrent.xcdatamodeld */,
+				62AA23A319FCF84200A8DA0D /* Group.h */,
+				62AA23A419FCF84200A8DA0D /* Group.m */,
 				62AA237919FC766A00A8DA0D /* Supporting Files */,
+				62AA23A219FCF84200A8DA0D /* BeetTorrent-Bridging-Header.h */,
 			);
 			path = BeetTorrent;
 			sourceTree = "<group>";
@@ -119,6 +143,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B401F8E5F813E120B54E724F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				541FF4E760147A8C877353D7 /* Pods-BeetTorrent.debug.xcconfig */,
+				2AE2B693CC74658FC5BB65CF /* Pods-BeetTorrent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE9DC5250B1321B69B45EFA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FA7504253BAE6CF92C734 /* libPods-BeetTorrent.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AA239919FC766A00A8DA0D /* Build configuration list for PBXNativeTarget "BeetTorrent" */;
 			buildPhases = (
+				88A3F8AC690C947CA8FAD585 /* Check Pods Manifest.lock */,
 				62AA237219FC766A00A8DA0D /* Sources */,
 				62AA237319FC766A00A8DA0D /* Frameworks */,
 				62AA237419FC766A00A8DA0D /* Resources */,
+				707DF3782A40CF6531FD4607 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,14 +256,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		707DF3782A40CF6531FD4607 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeetTorrent/Pods-BeetTorrent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A3F8AC690C947CA8FAD585 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62AA237219FC766A00A8DA0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AA23AE19FD005C00A8DA0D /* DetailedDownloadViewController.m in Sources */,
 				62AA237F19FC766A00A8DA0D /* AppDelegate.m in Sources */,
+				62AA23A119FC78CC00A8DA0D /* RequestItemViewController.m in Sources */,
+				62AA23A819FCF9E000A8DA0D /* ListOfDownloadsTableViewController.m in Sources */,
+				62AA23A519FCF84200A8DA0D /* Group.m in Sources */,
 				62AA237C19FC766A00A8DA0D /* main.m in Sources */,
-				62AA238519FC766A00A8DA0D /* ViewController.m in Sources */,
 				62AA238219FC766A00A8DA0D /* BeetTorrent.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,23 +412,30 @@
 		};
 		62AA239A19FC766A00A8DA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541FF4E760147A8C877353D7 /* Pods-BeetTorrent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BeetTorrent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeetTorrent/BeetTorrent-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		62AA239B19FC766A00A8DA0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE2B693CC74658FC5BB65CF /* Pods-BeetTorrent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BeetTorrent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeetTorrent/BeetTorrent-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -406,6 +492,7 @@
 				62AA239B19FC766A00A8DA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62AA239C19FC766A00A8DA0D /* Build configuration list for PBXNativeTarget "BeetTorrentTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +501,7 @@
 				62AA239E19FC766A00A8DA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
