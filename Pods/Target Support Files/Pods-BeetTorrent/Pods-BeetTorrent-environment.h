@@ -13,3 +13,9 @@
 // Please contact the author.
 // Version: 2.5.2.1.
 
+// TwilioSDK
+#define COCOAPODS_POD_AVAILABLE_TwilioSDK
+#define COCOAPODS_VERSION_MAJOR_TwilioSDK 1
+#define COCOAPODS_VERSION_MINOR_TwilioSDK 1
+#define COCOAPODS_VERSION_PATCH_TwilioSDK 5
+

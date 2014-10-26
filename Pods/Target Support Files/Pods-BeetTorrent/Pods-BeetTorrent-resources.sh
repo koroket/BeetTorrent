@@ -43,7 +43,22 @@ install_resource()
       ;;
   esac
 }
-
+          install_resource "TwilioSDK/Resources/disconnect.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_0.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_1.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_2.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_3.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_4.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_5.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_6.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_7.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_8.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_9.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_hash.wav"
+                    install_resource "TwilioSDK/Resources/dtmf_star.wav"
+                    install_resource "TwilioSDK/Resources/incoming.wav"
+                    install_resource "TwilioSDK/Resources/outgoing.wav"
+          
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then
   rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${INSTALL_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

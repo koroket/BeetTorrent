@@ -161,9 +161,7 @@
         NSString *fixedUrl = [NSString stringWithFormat:@"http://api.polleverywhere.com/free_text_polls/%@/results",pollid];
         NSURL *url = [NSURL URLWithString:fixedUrl];
         //Session
-        NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-        NSURLSession *session = [NSURLSession sessionWithConfiguration:config];
-        //Request
+
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
         [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
         [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];

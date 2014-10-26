@@ -53,6 +53,7 @@
 		62AA23A719FCF9E000A8DA0D /* ListOfDownloadsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfDownloadsTableViewController.m; sourceTree = "<group>"; };
 		62AA23AC19FD005C00A8DA0D /* DetailedDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedDownloadViewController.h; sourceTree = "<group>"; };
 		62AA23AD19FD005C00A8DA0D /* DetailedDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedDownloadViewController.m; sourceTree = "<group>"; };
+		62AA23AF19FD2AB600A8DA0D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		6E1FA7504253BAE6CF92C734 /* libPods-BeetTorrent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeetTorrent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,6 +156,7 @@
 		CE9DC5250B1321B69B45EFA6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62AA23AF19FD2AB600A8DA0D /* MessageUI.framework */,
 				6E1FA7504253BAE6CF92C734 /* libPods-BeetTorrent.a */,
 			);
 			name = Frameworks;

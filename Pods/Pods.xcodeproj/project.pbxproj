@@ -10,21 +10,589 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>023A60B929894C1F9FD8B024</key>
+		<key>02D63501151C0AF711642C9A</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>282BDD6011B724C89FB60AE1</string>
-				<string>3B79911F09840071A34F1955</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CFNetwork.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>1083BBF25628D16BB4848AF8</key>
+		<key>040D478EE75209F9E6089CCB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02D63501151C0AF711642C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05721A286EFC7BFC9A6D291C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TCDevice.h</string>
+			<key>path</key>
+			<string>Headers/TCDevice.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>06FCD5B07B57157ECFAFE109</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>TDBadgedCell.m</string>
+			<key>path</key>
+			<string>TDBadgedCell (xcode project)/TDBadgedCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08C02456884C7D27B232715D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>31CE56C5264E21B4D6564743</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>08FD7E9E7412F3C44B9C1CB1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TCDeviceDelegate.h</string>
+			<key>path</key>
+			<string>Headers/TCDeviceDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A709F9D9B242FB4A3135B69</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-BeetTorrent-TwilioSDK.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>0DB5B4E1C4CAC90E356916A4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7B8FE900E3C85A3584866D29</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0F0E48CF22DA5AD29315159B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>56A5F7E06E1702833BAA03F7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>118FFEED1FDBE6A2800EB177</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>126798607F59B916498777F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8AFFDA6835A902F2B1CACC65</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1DCD313A3987EB16D2DCDDAB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_0.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_0.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1FDDE6AAA6F5CEB911350892</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>A0B5F779B449718D5560DBCE</string>
+			<key>buildPhases</key>
+			<array>
+				<string>7BB22F61C4271FB71B31DD84</string>
+				<string>9348E9499FA921D264E22834</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>41FDDD5B7C4A2DF1C477A063</string>
+				<string>5399821314FC6445963AE4B8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-BeetTorrent</string>
+			<key>productName</key>
+			<string>Pods-BeetTorrent</string>
+			<key>productReference</key>
+			<string>9DD7B0CD87E6D5857ED17381</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>20F90EB4F01F991836FF2AC0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-TwilioSDK.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23FBDE672DEE571AF8CB58FF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4829BB79359B0404C6B813C3</string>
+				<string>F160CD627954E20C85D3E6A8</string>
+				<string>31961B3E854F5EECFBB564CD</string>
+				<string>3AC68FA9CB31C40165B0FC62</string>
+				<string>126798607F59B916498777F4</string>
+				<string>404DF600E82E28D94D474A8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>24143D81491F6DAEB4D4C2A4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26E2BB4DBCBF2A813838F670</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FDF78522FB690FF33A0F6747</string>
+				<string>94D60E58A9926E31825F39ED</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>282387F243173E1843568614</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>770CC43C20E3B31D8687A578</string>
+			<key>buildPhases</key>
+			<array>
+				<string>AABBBB36F78443D63D3E42D7</string>
+				<string>C88D782D8ECF3D69E6B8624E</string>
+				<string>6F7E3C123D1125F1219617FE</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-BeetTorrent-TDBadgedCell</string>
+			<key>productName</key>
+			<string>Pods-BeetTorrent-TDBadgedCell</string>
+			<key>productReference</key>
+			<string>A051AAB78E42611D95C36C61</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>2915EE732F17B1941BCC3924</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_3.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_3.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>298CE988F9E2A2BD1317723E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AC4D5F10FADAE7B692B000FD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>303F3C181A5A42CF9896F160</key>
+		<dict>
+			<key>fileRef</key>
+			<string>06FCD5B07B57157ECFAFE109</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>3088E429EF93485951673CB8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-TwilioSDK-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>31961B3E854F5EECFBB564CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05721A286EFC7BFC9A6D291C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>31CE56C5264E21B4D6564743</key>
+		<dict>
+			<key>fileRef</key>
+			<string>357D1D07DFCC3D70208514CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>357D1D07DFCC3D70208514CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-TwilioSDK-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37D08818964AA222F4366341</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>38F7985B89AB0A371A1E8566</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>outgoing.wav</string>
+			<key>path</key>
+			<string>Resources/outgoing.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3AC68FA9CB31C40165B0FC62</key>
+		<dict>
+			<key>fileRef</key>
+			<string>08FD7E9E7412F3C44B9C1CB1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3F7DA90E8C01571B947B46D9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E921A71A4E69A384673ADE38</string>
+				<string>D95F47A3B76AAADC0DAC8F81</string>
+				<string>040D478EE75209F9E6089CCB</string>
+				<string>5825F0DC3023F80B815AD5D6</string>
+				<string>60395479BE722F798638DA57</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>404DF600E82E28D94D474A8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E0A81341C93C4C2C58149D62</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>41ABDFE32E2F133B279F2BD5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_8.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_8.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>41FDDD5B7C4A2DF1C477A063</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>282387F243173E1843568614</string>
+			<key>targetProxy</key>
+			<string>6AFD6E3E77918E3100110484</string>
+		</dict>
+		<key>46CF9C5F5E0503EFDC58EBB2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-TwilioSDK-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>471C861FF154581AA210A7FE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SystemConfiguration.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>4829BB79359B0404C6B813C3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FD1F9E7B80BB50ECCD3FA6A6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>49CFDB84B0771873855FE89B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-TDBadgedCell-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5011CC9847506FA06645F0AA</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C44FA9447964DD6EE64D0C37</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5399821314FC6445963AE4B8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>975194C229DFC5BC4049709B</string>
+			<key>targetProxy</key>
+			<string>5D6E7F12F1120310594EBC65</string>
+		</dict>
+		<key>55F1489E81C69676F4E96538</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>56A5F7E06E1702833BAA03F7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D1B0E40D6E4F872932AC8F13</string>
+				<string>AB49A76EDB4E7764B8D94515</string>
+				<string>118FFEED1FDBE6A2800EB177</string>
+				<string>37D08818964AA222F4366341</string>
+				<string>24143D81491F6DAEB4D4C2A4</string>
+				<string>55F1489E81C69676F4E96538</string>
+				<string>C44FA9447964DD6EE64D0C37</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-BeetTorrent</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-BeetTorrent</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>580AFC202A87F6ADD5F9E4C4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-TDBadgedCell-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5825F0DC3023F80B815AD5D6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7B8FE900E3C85A3584866D29</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A3EEF8DC12E1A42B7A7BE09</key>
+		<dict>
+			<key>fileRef</key>
+			<string>118FFEED1FDBE6A2800EB177</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5D6E7F12F1120310594EBC65</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>E82709D50D72E6754EA9BBCA</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>975194C229DFC5BC4049709B</string>
+			<key>remoteInfo</key>
+			<string>Pods-BeetTorrent-TwilioSDK</string>
+		</dict>
+		<key>5E66C990EACF623382801349</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -41,73 +609,55 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>12E7680C420A1052C05B178D</key>
+		<key>60395479BE722F798638DA57</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>fileRef</key>
+			<string>471C861FF154581AA210A7FE</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-BeetTorrent-TDBadgedCell.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>18F6370CFFA822896D74B84C</key>
+		<key>6335EADE4FA781E44E95EE07</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>46CF9C5F5E0503EFDC58EBB2</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
 				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
 				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-BeetTorrent-TwilioSDK/Pods-BeetTorrent-TwilioSDK-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
 			</dict>
@@ -116,77 +666,23 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>1AED6F8738D0245D4313F3B4</key>
+		<key>6AFD6E3E77918E3100110484</key>
 		<dict>
-			<key>includeInIndex</key>
+			<key>containerPortal</key>
+			<string>E82709D50D72E6754EA9BBCA</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BeetTorrent-TDBadgedCell-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>remoteGlobalIDString</key>
+			<string>282387F243173E1843568614</string>
+			<key>remoteInfo</key>
+			<string>Pods-BeetTorrent-TDBadgedCell</string>
 		</dict>
-		<key>1B7983F8191EA1C2627CE9A5</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>DE9F54AC787772101C3621FE</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>563B7BE4D5A2217EE84CF155</string>
-			<key>productRefGroup</key>
-			<string>71E1405F4D50C50608123CCB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C31D59B32D1425CDB4576DD4</string>
-				<string>80EAC3A1527976091EEA0BF3</string>
-			</array>
-		</dict>
-		<key>1F9DDDE97A060D441E0A72D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>70E10DEFE47336E8E7BFFDAC</string>
-				<string>8D5C1300A5863DFDA52796D3</string>
-				<string>B544E3B2ECE8611366F3079E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TDBadgedCell</string>
-			<key>path</key>
-			<string>TDBadgedCell</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282BDD6011B724C89FB60AE1</key>
+		<key>6C2D826C1E84B72C41F757BD</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>646591379EC63331D7B414CC</string>
+			<string>46CF9C5F5E0503EFDC58EBB2</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -201,6 +697,8 @@
 				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-BeetTorrent-TwilioSDK/Pods-BeetTorrent-TwilioSDK-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -230,7 +728,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2FB375860E5816E138D99BCF</key>
+		<key>6E17A07E6FDAC2E99CE05D4D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -238,12 +736,305 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TCConnectionDelegate.h</string>
 			<key>path</key>
-			<string>Pods-BeetTorrent-environment.h</string>
+			<string>Headers/TCConnectionDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>395AC9F03ABF4EAE97B018D2</key>
+		<key>6F7E3C123D1125F1219617FE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7B1C4D7AE86AD5F73035A4B5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>73F02FD395643DFFBA5FD599</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CA926A4AF41FE2E50E1B5887</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-BeetTorrent-TDBadgedCell/Pods-BeetTorrent-TDBadgedCell-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>750DAD14E1BFCA95C7D6CDE8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>incoming.wav</string>
+			<key>path</key>
+			<string>Resources/incoming.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>770CC43C20E3B31D8687A578</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>855763A57F0A388BB4596298</string>
+				<string>73F02FD395643DFFBA5FD599</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>79B8B328424A6D67447E4DEA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9DD7B0CD87E6D5857ED17381</string>
+				<string>A051AAB78E42611D95C36C61</string>
+				<string>0A709F9D9B242FB4A3135B69</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7B1C4D7AE86AD5F73035A4B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3837EE41DD9A2A59FE8B397</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7B8FE900E3C85A3584866D29</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>7BB22F61C4271FB71B31DD84</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A3EEF8DC12E1A42B7A7BE09</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7F7BC97568CA2712EF8BFA16</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CACB671A2718BB22DA73E662</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8315C0C31B9ED2897E5FEBAB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_5.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_5.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>855763A57F0A388BB4596298</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CA926A4AF41FE2E50E1B5887</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-BeetTorrent-TDBadgedCell/Pods-BeetTorrent-TDBadgedCell-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>88DA5E730DCDD74521F4A798</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8DC4C99C406669E7FD85C8B9</string>
+				<string>CA926A4AF41FE2E50E1B5887</string>
+				<string>580AFC202A87F6ADD5F9E4C4</string>
+				<string>49CFDB84B0771873855FE89B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-BeetTorrent-TDBadgedCell</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8AFFDA6835A902F2B1CACC65</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TCPresenceEvent.h</string>
+			<key>path</key>
+			<string>Headers/TCPresenceEvent.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8DC4C99C406669E7FD85C8B9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-TDBadgedCell.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC7751B3BD87938D3695B5E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6C2D826C1E84B72C41F757BD</string>
+				<string>6335EADE4FA781E44E95EE07</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>90D40E14052958DE2368936D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>20F90EB4F01F991836FF2AC0</string>
+				<string>46CF9C5F5E0503EFDC58EBB2</string>
+				<string>357D1D07DFCC3D70208514CE</string>
+				<string>3088E429EF93485951673CB8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-BeetTorrent-TwilioSDK</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>912A50088C93D5532460F5FD</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -310,138 +1101,113 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>3B79911F09840071A34F1955</key>
+		<key>9348E9499FA921D264E22834</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>77FD3BDB279D65CD019982F5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>97FD2E195D368C260615E2A9</string>
+			</array>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>3FA6BAFF4C995EC5D3142FF7</key>
+		<key>94D60E58A9926E31825F39ED</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>7F6FD83A7CDDA397820928B2</string>
+				<string>FD1F9E7B80BB50ECCD3FA6A6</string>
+				<string>6E17A07E6FDAC2E99CE05D4D</string>
+				<string>05721A286EFC7BFC9A6D291C</string>
+				<string>08FD7E9E7412F3C44B9C1CB1</string>
+				<string>8AFFDA6835A902F2B1CACC65</string>
+				<string>E0A81341C93C4C2C58149D62</string>
+				<string>F1BD2873ECFFC921AA81E4C6</string>
+				<string>90D40E14052958DE2368936D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Targets Support Files</string>
+			<string>TwilioSDK</string>
+			<key>path</key>
+			<string>TwilioSDK</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4A86D20CB17A0D3A6D342D97</key>
+		<key>94F7856AF66372A6CBD602D6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_hash.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_hash.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>956328E47B2F8D9ACB1AA712</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>AudioToolbox.framework</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>505C3EB85D8EFB2678995502</key>
+		<key>970F16A8891D1F0050A2BFB0</key>
 		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>80EAC3A1527976091EEA0BF3</string>
-			<key>targetProxy</key>
-			<string>A357C351DF9F4B68A8D8AAA6</string>
-		</dict>
-		<key>53FBFD1D884A72F29CC193D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AVFoundation.framework</string>
 			<key>path</key>
-			<string>Pods-BeetTorrent-acknowledgements.plist</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>563B7BE4D5A2217EE84CF155</key>
+		<key>975194C229DFC5BC4049709B</key>
 		<dict>
-			<key>children</key>
+			<key>buildConfigurationList</key>
+			<string>8EC7751B3BD87938D3695B5E</string>
+			<key>buildPhases</key>
 			<array>
-				<string>1083BBF25628D16BB4848AF8</string>
-				<string>F3E7AF85AC519993D0B8C7DC</string>
-				<string>CACDC0D16A8F460C03541F40</string>
-				<string>71E1405F4D50C50608123CCB</string>
-				<string>3FA6BAFF4C995EC5D3142FF7</string>
+				<string>08C02456884C7D27B232715D</string>
+				<string>3F7DA90E8C01571B947B46D9</string>
+				<string>23FBDE672DEE571AF8CB58FF</string>
 			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-BeetTorrent-TwilioSDK</string>
+			<key>productName</key>
+			<string>Pods-BeetTorrent-TwilioSDK</string>
+			<key>productReference</key>
+			<string>0A709F9D9B242FB4A3135B69</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>5FC8FA6A6E6174D61D671D22</key>
+		<key>97FD2E195D368C260615E2A9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4A86D20CB17A0D3A6D342D97</string>
+			<string>7B8FE900E3C85A3584866D29</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>646591379EC63331D7B414CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BeetTorrent.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66C4D43DF5DF1891F3D359D0</key>
+		<key>9DD7B0CD87E6D5857ED17381</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -454,242 +1220,90 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>6CFED592A5326DE4B4D4A04A</key>
+		<key>A051AAB78E42611D95C36C61</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-BeetTorrent-resources.sh</string>
+			<string>libPods-BeetTorrent-TDBadgedCell.a</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>70E10DEFE47336E8E7BFFDAC</key>
+		<key>A0B5F779B449718D5560DBCE</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>AEB5D3803E58C81D880D8253</string>
+				<string>5011CC9847506FA06645F0AA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>AA2BB69403C35739B95A252B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>TDBadgedCell.h</string>
+			<string>dtmf_6.wav</string>
 			<key>path</key>
-			<string>TDBadgedCell (xcode project)/TDBadgedCell.h</string>
+			<string>Resources/dtmf_6.wav</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>70F8C6280B35DAED0862908C</key>
+		<key>AABBBB36F78443D63D3E42D7</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>814AC75902912D8DFAE3B94C</string>
+				<string>F4C437E6EC971F8A83D52FEC</string>
+				<string>303F3C181A5A42CF9896F160</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>71E1405F4D50C50608123CCB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66C4D43DF5DF1891F3D359D0</string>
-				<string>12E7680C420A1052C05B178D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77FD3BDB279D65CD019982F5</key>
+		<key>AB49A76EDB4E7764B8D94515</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Pods-BeetTorrent.release.xcconfig</string>
+			<string>Pods-BeetTorrent-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7F6FD83A7CDDA397820928B2</key>
+		<key>AC4D5F10FADAE7B692B000FD</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>E968C3ECEB8571CCE5745912</string>
-				<string>53FBFD1D884A72F29CC193D8</string>
-				<string>A5EA5BBA60B0370CE0BA6662</string>
-				<string>2FB375860E5816E138D99BCF</string>
-				<string>6CFED592A5326DE4B4D4A04A</string>
-				<string>646591379EC63331D7B414CC</string>
-				<string>77FD3BDB279D65CD019982F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-BeetTorrent</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-BeetTorrent</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80EAC3A1527976091EEA0BF3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D480031AF21C53706F9AD684</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EF930F062408BCEA7A55AF6C</string>
-				<string>D600F0118A3C00D4733C0572</string>
-				<string>EFC96546B7F477F270CE8BF9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-BeetTorrent-TDBadgedCell</string>
-			<key>productName</key>
-			<string>Pods-BeetTorrent-TDBadgedCell</string>
-			<key>productReference</key>
-			<string>12E7680C420A1052C05B178D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>814AC75902912D8DFAE3B94C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A5EA5BBA60B0370CE0BA6662</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86CACD5A7FA8BCF87131935B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BeetTorrent-TDBadgedCell.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D5C1300A5863DFDA52796D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>TDBadgedCell.m</string>
+			<string>QuartzCore.framework</string>
 			<key>path</key>
-			<string>TDBadgedCell (xcode project)/TDBadgedCell.m</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>92CF511D98EC974FC69CEB4E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>934F6DFD02A86A79754A9841</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>934F6DFD02A86A79754A9841</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-BeetTorrent-TDBadgedCell-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93959F5403345D7DC4FDCD7C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A57EB0DBEBBFAB08CA72A687</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B1825B7D1B139DFF9C08567</key>
+		<key>AEB5D3803E58C81D880D8253</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1AED6F8738D0245D4313F3B4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-BeetTorrent-TDBadgedCell/Pods-BeetTorrent-TDBadgedCell-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A0BAB95BF3962CB843A166D9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1AED6F8738D0245D4313F3B4</string>
+			<string>55F1489E81C69676F4E96538</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -704,8 +1318,6 @@
 				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-BeetTorrent-TDBadgedCell/Pods-BeetTorrent-TDBadgedCell-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -735,156 +1347,97 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>A357C351DF9F4B68A8D8AAA6</key>
+		<key>B4A6D436FB225C05B4AABFEB</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>1B7983F8191EA1C2627CE9A5</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>80EAC3A1527976091EEA0BF3</string>
-			<key>remoteInfo</key>
-			<string>Pods-BeetTorrent-TDBadgedCell</string>
-		</dict>
-		<key>A57EB0DBEBBFAB08CA72A687</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A86D20CB17A0D3A6D342D97</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_7.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_7.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A5EA5BBA60B0370CE0BA6662</key>
+		<key>C3837EE41DD9A2A59FE8B397</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TDBadgedCell.h</string>
 			<key>path</key>
-			<string>Pods-BeetTorrent-dummy.m</string>
+			<string>TDBadgedCell (xcode project)/TDBadgedCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AA202297134AC0728E6EB59A</key>
+		<key>C44FA9447964DD6EE64D0C37</key>
 		<dict>
-			<key>fileRef</key>
-			<string>70E10DEFE47336E8E7BFFDAC</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AC79CCB1D650B4227FC4390B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D5C1300A5863DFDA52796D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B544E3B2ECE8611366F3079E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86CACD5A7FA8BCF87131935B</string>
-				<string>1AED6F8738D0245D4313F3B4</string>
-				<string>934F6DFD02A86A79754A9841</string>
-				<string>FF2C2C9FB1C872587621D7F2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>../Target Support Files/Pods-BeetTorrent-TDBadgedCell</string>
+			<string>Pods-BeetTorrent.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C31D59B32D1425CDB4576DD4</key>
+		<key>C5783787D7DD75AC9C41F06D</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>023A60B929894C1F9FD8B024</string>
-			<key>buildPhases</key>
-			<array>
-				<string>70F8C6280B35DAED0862908C</string>
-				<string>93959F5403345D7DC4FDCD7C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>505C3EB85D8EFB2678995502</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Pods-BeetTorrent</string>
-			<key>productName</key>
-			<string>Pods-BeetTorrent</string>
-			<key>productReference</key>
-			<string>66C4D43DF5DF1891F3D359D0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C93F4B06B97ED01DE953EDBE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D8928AAE307C7323ACE4C31C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CACDC0D16A8F460C03541F40</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1F9DDDE97A060D441E0A72D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
+			<string>dtmf_star.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_star.wav</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D480031AF21C53706F9AD684</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A0BAB95BF3962CB843A166D9</string>
-				<string>9B1825B7D1B139DFF9C08567</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D600F0118A3C00D4733C0572</key>
+		<key>C88D782D8ECF3D69E6B8624E</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>5FC8FA6A6E6174D61D671D22</string>
-				<string>C93F4B06B97ED01DE953EDBE</string>
+				<string>0DB5B4E1C4CAC90E356916A4</string>
+				<string>298CE988F9E2A2BD1317723E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>D7F9355DD1D3465EFEDB1AB9</key>
+		<key>CA926A4AF41FE2E50E1B5887</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-BeetTorrent-TDBadgedCell-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CACB671A2718BB22DA73E662</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4A86D20CB17A0D3A6D342D97</string>
-				<string>D8928AAE307C7323ACE4C31C</string>
+				<string>970F16A8891D1F0050A2BFB0</string>
+				<string>956328E47B2F8D9ACB1AA712</string>
+				<string>02D63501151C0AF711642C9A</string>
+				<string>7B8FE900E3C85A3584866D29</string>
+				<string>AC4D5F10FADAE7B692B000FD</string>
+				<string>471C861FF154581AA210A7FE</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -893,34 +1446,95 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D8928AAE307C7323ACE4C31C</key>
+		<key>CBD720E49A6F3B1E8D295121</key>
 		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>NO</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>CC2A087203E8F5B5BAC47E14</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>QuartzCore.framework</string>
+			<string>dtmf_1.wav</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<string>Resources/dtmf_1.wav</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE9F54AC787772101C3621FE</key>
+		<key>CD7E747A71C3C57751725FE9</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>395AC9F03ABF4EAE97B018D2</string>
-				<string>18F6370CFFA822896D74B84C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_2.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_2.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E968C3ECEB8571CCE5745912</key>
+		<key>D1B0E40D6E4F872932AC8F13</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -933,47 +1547,42 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EF930F062408BCEA7A55AF6C</key>
+		<key>D95F47A3B76AAADC0DAC8F81</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>92CF511D98EC974FC69CEB4E</string>
-				<string>AC79CCB1D650B4227FC4390B</string>
-			</array>
+			<key>fileRef</key>
+			<string>956328E47B2F8D9ACB1AA712</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>EFC96546B7F477F270CE8BF9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AA202297134AC0728E6EB59A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F3E7AF85AC519993D0B8C7DC</key>
+		<key>DA0708926EBE615D95B14DE1</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>D7F9355DD1D3465EFEDB1AB9</string>
+				<string>5E66C990EACF623382801349</string>
+				<string>7F7BC97568CA2712EF8BFA16</string>
+				<string>26E2BB4DBCBF2A813838F670</string>
+				<string>79B8B328424A6D67447E4DEA</string>
+				<string>0F0E48CF22DA5AD29315159B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FF2C2C9FB1C872587621D7F2</key>
+		<key>DB141231ABCCB902353F425F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_4.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_4.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0A81341C93C4C2C58149D62</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -981,13 +1590,173 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TwilioClient.h</string>
 			<key>path</key>
-			<string>Pods-BeetTorrent-TDBadgedCell-prefix.pch</string>
+			<string>Headers/TwilioClient.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E1419736CEF05344AE9C7C49</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>disconnect.wav</string>
+			<key>path</key>
+			<string>Resources/disconnect.wav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E2930506A85730150A96BEFA</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>912A50088C93D5532460F5FD</string>
+				<string>CBD720E49A6F3B1E8D295121</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E82709D50D72E6754EA9BBCA</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>E2930506A85730150A96BEFA</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>DA0708926EBE615D95B14DE1</string>
+			<key>productRefGroup</key>
+			<string>79B8B328424A6D67447E4DEA</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>1FDDE6AAA6F5CEB911350892</string>
+				<string>282387F243173E1843568614</string>
+				<string>975194C229DFC5BC4049709B</string>
+			</array>
+		</dict>
+		<key>E921A71A4E69A384673ADE38</key>
+		<dict>
+			<key>fileRef</key>
+			<string>970F16A8891D1F0050A2BFB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F160CD627954E20C85D3E6A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E17A07E6FDAC2E99CE05D4D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F1BD2873ECFFC921AA81E4C6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E1419736CEF05344AE9C7C49</string>
+				<string>1DCD313A3987EB16D2DCDDAB</string>
+				<string>CC2A087203E8F5B5BAC47E14</string>
+				<string>CD7E747A71C3C57751725FE9</string>
+				<string>2915EE732F17B1941BCC3924</string>
+				<string>DB141231ABCCB902353F425F</string>
+				<string>8315C0C31B9ED2897E5FEBAB</string>
+				<string>AA2BB69403C35739B95A252B</string>
+				<string>B4A6D436FB225C05B4AABFEB</string>
+				<string>41ABDFE32E2F133B279F2BD5</string>
+				<string>FF8565C0CD23A538C494A7BC</string>
+				<string>94F7856AF66372A6CBD602D6</string>
+				<string>C5783787D7DD75AC9C41F06D</string>
+				<string>750DAD14E1BFCA95C7D6CDE8</string>
+				<string>38F7985B89AB0A371A1E8566</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F4C437E6EC971F8A83D52FEC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>580AFC202A87F6ADD5F9E4C4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FD1F9E7B80BB50ECCD3FA6A6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TCConnection.h</string>
+			<key>path</key>
+			<string>Headers/TCConnection.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDF78522FB690FF33A0F6747</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C3837EE41DD9A2A59FE8B397</string>
+				<string>06FCD5B07B57157ECFAFE109</string>
+				<string>88DA5E730DCDD74521F4A798</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TDBadgedCell</string>
+			<key>path</key>
+			<string>TDBadgedCell</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF8565C0CD23A538C494A7BC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dtmf_9.wav</string>
+			<key>path</key>
+			<string>Resources/dtmf_9.wav</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>1B7983F8191EA1C2627CE9A5</string>
+	<string>E82709D50D72E6754EA9BBCA</string>
 </dict>
 </plist>

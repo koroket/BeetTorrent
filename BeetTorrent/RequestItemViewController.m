@@ -9,6 +9,8 @@
 #import "RequestItemViewController.h"
 #import "AppDelegate.h"
 #import "Group.h"
+
+
 //#import <Sinch/Sinch.h>
 //curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=" -d "{\
 //\"free_text_poll\": {\"id\":null,\"updated_at\":null,\"title\":\"What is the meaning of life?\",\"opened_at\":null,\"permalink\":null,\"state\":null,\"sms_enabled\":null,\"twitter_enabled\":null,\"web_enabled\":null,\"sharing_enabled\":null,\"keyword\":null}\
@@ -25,8 +27,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    NSLog([self encoder:@"masakazuband823:2127512qwerty"]);
+    [self sendMessage];
+
     NSData *nsdataFromBase64String = [[NSData alloc]
                                       initWithBase64EncodedString:@"YXBpdGVzdDphcGl0ZXN0" options:0];
     
@@ -165,7 +167,8 @@
     {
         NSLog(@"Cannot connect to server");
     }
-}-(void)saveRequestWithItem:(NSString*)item withGoal:(int)goal withPollid:(NSString*)pollid
+}
+-(void)saveRequestWithItem:(NSString*)item withGoal:(int)goal withPollid:(NSString*)pollid
 {
     NSManagedObjectContext *context = ((AppDelegate *)[UIApplication sharedApplication].delegate).managedObjectContext;
     
@@ -201,6 +204,38 @@
     \"free_text_poll\": {\"id\":null,\"updated_at\":null,\"title\":\"What is the meaning of life?\",\"opened_at\":null,\"permalink\":null,\"state\":null,\"sms_enabled\":null,\"twitter_enabled\":null,\"web_enabled\":null,\"sharing_enabled\":null,\"keyword\":null}\
     }" "http://api.polleverywhere.com/free_text_polls"
     */
+}
+-(void)sendMessage
+{
+    NSString *kTwilioSID = @"ACe15755bd250a2d9dc60aeb0fb25926cb";
+    NSString *kTwilioSecret = @"7d5da65398ddc2e7bbb16f5d7c3d7bdc";
+    NSString *kFromNumber = @"+16503895648";
+    NSString *kToNumber = @"+16502817692";
+    NSString *kMessage = @"Hikosadas";
+    
+    // Build request
+    NSString *urlString = [NSString stringWithFormat:@"https://%@:%@@api.twilio.com/2010-04-01/Accounts/%@/SMS/Messages", kTwilioSID, kTwilioSecret, kTwilioSID];
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+    [request setURL:url];
+    [request setHTTPMethod:@"POST"];
+    
+    // Set up the body
+    NSString *bodyString = [NSString stringWithFormat:@"From=%@&To=%@&Body=%@", kFromNumber, kToNumber, kMessage];
+    NSData *data = [bodyString dataUsingEncoding:NSUTF8StringEncoding];
+    [request setHTTPBody:data];
+    NSError *error;
+    NSURLResponse *response;
+    NSData *receivedData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    
+    // Handle the received data
+    if (error) {
+        NSLog(@"Error: %@", error);
+    } else {
+        NSString *receivedString = [[NSString alloc]initWithData:receivedData encoding:NSUTF8StringEncoding];
+        NSLog(@"Request sent. %@", receivedString);
+    }
+
 }
 /*
 #pragma mark - Navigation

@@ -1,10 +1,13 @@
 PODS:
   - TDBadgedCell (2.5.2.1)
+  - TwilioSDK (1.1.5)
 
 DEPENDENCIES:
   - TDBadgedCell (~> 2.5.2.1)
+  - TwilioSDK
 
 SPEC CHECKSUMS:
   TDBadgedCell: dce5feab0caa3c255aed36327012674a1b65e650
+  TwilioSDK: deeeebd032759205c8e7b8c0854caf25e0f80f76
 
 COCOAPODS: 0.34.4

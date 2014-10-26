@@ -1,6 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TDBadgedCell"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/TDBadgedCell"
-OTHER_LDFLAGS = -ObjC -l"Pods-BeetTorrent-TDBadgedCell" -framework "QuartzCore"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TDBadgedCell" "${PODS_ROOT}/Headers/Public/TwilioSDK"
+LIBRARY_SEARCH_PATHS = $(PODS_ROOT)/TwilioSDK/Libraries
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/TDBadgedCell" -isystem "${PODS_ROOT}/Headers/Public/TwilioSDK"
+OTHER_LDFLAGS = -ObjC -l"Pods-BeetTorrent-TDBadgedCell" -l"Pods-BeetTorrent-TwilioSDK" -l"TwilioClient" -l"crypto" -l"ssl" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "QuartzCore" -framework "SystemConfiguration"
+OTHER_LD_FLAGS = $(inherited) -ObjC
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

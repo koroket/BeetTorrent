@@ -1,0 +1,3 @@
+PODS_BEETTORRENT_TWILIOSDK_LIBRARY_SEARCH_PATHS = $(PODS_ROOT)/TwilioSDK/Libraries
+PODS_BEETTORRENT_TWILIOSDK_OTHER_LDFLAGS = -l"TwilioClient" -l"crypto" -l"ssl" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "SystemConfiguration"
+PODS_BEETTORRENT_TWILIOSDK_OTHER_LD_FLAGS = $(inherited) -ObjC

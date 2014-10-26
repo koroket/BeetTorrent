@@ -5,6 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'BeetTorrent' do
 pod 'TDBadgedCell', '~> 2.5.2.1'
+pod 'TwilioSDK'
 end
 
 target 'BeetTorrentTests' do

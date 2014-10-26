@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-BeetTorrent-TwilioSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-BeetTorrent.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>80EAC3A1527976091EEA0BF3</key>
+		<key>1FDDE6AAA6F5CEB911350892</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C31D59B32D1425CDB4576DD4</key>
+		<key>282387F243173E1843568614</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>975194C229DFC5BC4049709B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
